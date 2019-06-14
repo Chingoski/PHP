@@ -9,7 +9,7 @@ $router = require 'Public/routes.php';
 
 $uri = trim($_SERVER['REQUEST_URI'],'/');
 
-require $router->direct('contact');
+require $router->direct($uri);
 
 
 
