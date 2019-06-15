@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed top">
     <div class="container">
-        <a href="../Views/IndexView.php" class="navbar-brand"">Kol2 Store</a>
+        <a href="../Views/IndexView.php" class="navbar-brand"">PHP Site</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#MenuItems" aria-controls="MenuItems"
                 aria-expand="false"><span class="navbar-toggler-icon"></span></button>
         <div id="MenuItems" class="collapse navbar-collapse">

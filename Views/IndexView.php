@@ -8,17 +8,24 @@
 </ul>
 <div class="row">
     <div class="col col-md-4 ">
-        <ul class="list-group ">
+        <table class="table  table-dark table-hover">
+            <thead>
+            <th>Task</th>
+            </thead>
+            <tbody>
             <?php foreach ($tasks as $task): ?>
-                <li class="list-group-item list-group-item-dark">
-                    <?php if($task->isCompleted()): ?>
-                        <strike><?= $task->getDesc() ?></strike>
-                    <?php else: ?>
-                        <?= $task->getDesc()?>
-                    <?php endif; ?>
-                </li>
-            <?php endforeach; ?>
-        </ul>
+            <tr>
+            <td>
+                <?php if($task->isCompleted()): ?>
+                    <strike><?= $task->getDesc() ?></strike>
+                <?php else: ?>
+                    <?= $task->getDesc()?>
+                <?php endif; ?>
+                <?php endforeach; ?>
+            </td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 
