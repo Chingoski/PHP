@@ -1,3 +1,3 @@
 <?php
 
-require 'Public/ContactView.php';
+require 'Views/ContactView.php';

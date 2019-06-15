@@ -1,3 +1,3 @@
 <?php
 
-require 'Public/AboutView.php';
+require 'Views/AboutView.php';

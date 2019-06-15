@@ -38,5 +38,5 @@ $tasks = $db->sellectAll('todos','Task');
 
 
 //Open the view
-require 'Public/IndexView.php';
+require 'Views/IndexView.php';
 

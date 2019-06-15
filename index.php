@@ -5,12 +5,13 @@ require  'core/Functions.php';
 
 $db = require  'core/bootstrap.php';
 
-$router = require 'Public/routes.php';
+$router = require 'Views/routes.php';
 
 $uri = trim($_SERVER['REQUEST_URI'],'/');
 
-require $router->direct($uri);
+//require $router->direct($uri);
 
+require 'controlers/index.php';
 
 
 
