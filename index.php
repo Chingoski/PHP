@@ -9,9 +9,12 @@ $router = require 'Views/routes.php';
 
 $uri = trim($_SERVER['REQUEST_URI'],'/');
 
-//require $router->direct($uri);
+$method = $_SERVER['REQUEST_METHOD'];
 
-require 'controlers/index.php';
+
+require $router->direct($uri,$method);
+
+//require 'controlers/index.php';
 
 
 

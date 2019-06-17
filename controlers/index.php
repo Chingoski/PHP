@@ -1,7 +1,7 @@
 <?php
 
 $tasks = $db->sellectAll('todos','Task');
-
+$users = $db->sellectAll('user','User');
 //Variable
 $greetings = "Hello:";
 

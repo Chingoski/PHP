@@ -1,11 +1,9 @@
 <?php
 
 $router = new Router();
-
-$router -> define([
-'' => "controlers/index.php",
-'about' => 'controlers/about.php',
-'contact' => 'controlers/contact.php'
-]);
+$router->get('',"controlers/index.php");
+$router->get('about',"controlers/about.php");
+$router->get('contact',"controlers/contact.php");
+$router->post('names',"controlers/add-name.php");
 
 return $router;
