@@ -1,7 +1,7 @@
 <?php
 
-$tasks = $db->sellectAll('todos','Task');
-$users = $db->sellectAll('user','User');
+$tasks = App::getItem('database')->sellectAll('todos','Task');
+$users = App::getItem('database')->sellectAll('user','User');
 //Variable
 $greetings = "Hello:";
 

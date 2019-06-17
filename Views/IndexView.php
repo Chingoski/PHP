@@ -40,16 +40,16 @@
                     <?= $item->first_name ?>
                 </td>
                 <td>
-                    <?= $item->Suranme ?>
+                    <?= $item->surname ?>
                 </td>
                 <td>
-                    <?= $item->Age ?>
+                    <?= $item->age ?>
                 </td>
                 <td>
-                    <?= $item->Gender ?>
+                    <?= $item->gender ?>
                 </td>
                 <td>
-                    <?= $item->Proffession ?>
+                    <?= $item->proffession ?>
                 </td>
             </tr>
             <?php endforeach; ?>

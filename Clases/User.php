@@ -4,16 +4,16 @@
 class User
 {
     public $first_name;
-    public $Surname;
-    public  $Age;
-    public $Gender;
-    public $Proffession;
+    public $surname;
+    public  $age;
+    public $gender;
+    public $proffession;
 
 public function CreateUser($name , $surname , $age , $gender , $proffession){
-    $this->Name = $name;
-    $this->Surname = $surname;
-    $this->Age = $age;
-    $this->Gender = $gender;
-    $this->Proffession = $proffession;
+    $this->first_name = $name;
+    $this->surname = $surname;
+    $this->agege = $age;
+    $this->gender = $gender;
+    $this->proffession = $proffession;
 }
 }
